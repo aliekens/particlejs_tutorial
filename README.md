@@ -14,3 +14,5 @@ Using your Particle devices:
 * How to [list your Particle devices](list_devices) and their IDs
 * How to [call a function on a Particle device](call_function) (exercise: add an "off" button to the HTML page)
 * How to [get a variable from a Particle device](get_variable)
+
+In the case of HTML/Javascript newbies, there's also some basic example to fast track through [some elementary Javascript concepts](hello_javascript) needed to grasp Javascript essentials before diving into the Particle examples.

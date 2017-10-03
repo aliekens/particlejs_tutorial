@@ -1,0 +1,19 @@
+<html>
+<head>
+  <script type="text/javascript" src="http://cdn.jsdelivr.net/particle-api-js/5/particle.min.js"></script>
+  <script>
+    var particle = new Particle();
+    particle.login({username: 'email@example.com', password: 'pass'}).then(
+      function(data){
+        access_token = data.body.access_token;
+        console.log('Log in successfull, token = ', access_token);
+      },
+      function(err) {
+        console.log('Log in failed, error = ', err);
+      }
+    );
+  </script>
+</head>
+<body>
+</body>
+</html>

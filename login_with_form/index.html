@@ -1,0 +1,29 @@
+<html>
+<head>
+  <script type="text/javascript" src="particle.min.js"></script>
+  <script type="text/javascript" src="jquery.min.js"></script>
+  <script type="text/javascript" src="js.cookie.js"></script>
+  <script type="text/javascript" src="login.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="login.css" />
+</head>
+<body>
+  
+  <div id="loginDiv" class="hidden">
+    <form>
+      <p>Log in with the email address and password you use for your Particle login:</p>
+      <p>Email: <input type="text" id="loginUser"/></p>
+      <p>Password: <input type="password" id="loginPass"/></p>
+      <input type="submit" id="loginButton">
+    </form>
+  </div>
+  
+  <div id="mainDiv" class="hidden">
+    <p>Access token = <span id="accessToken"></span></p>
+    <form>
+      <p><input type="button" id="logoutButton" value="Log Out"/></p>
+    </form>
+  </div>
+  
+</body>
+</html>

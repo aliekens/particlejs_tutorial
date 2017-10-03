@@ -12,3 +12,4 @@ Loggig in with your Particle account to obtain an access token for the API:
 Using your Particle devices:
 
 * How to [list your Particle devices](list_devices) and their IDs
+* How to [call a function on a Particle device](call_function) (exercise: add an "off" button to the HTML page)

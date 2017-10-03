@@ -1,6 +1,6 @@
 # Particle Javascript Materials
 
-I use these materials in my classes to introduce students to work with the Particle.io Javascript API from within simple static HTML web pages.
+I use these materials in my classes to introduce students to work with the [Particle.io Javascript API](https://docs.particle.io/reference/javascript/) from within simple static HTML web pages.
 
 ## Examples that are included
 

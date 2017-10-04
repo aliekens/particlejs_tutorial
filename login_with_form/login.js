@@ -55,7 +55,7 @@ function loginButtonHandler(event) {
   
 }
 
-function logoutButtonHandler() {
+function logoutButtonHandler(event) {
   // prevent the button from running its default behavior
   event.preventDefault();
 
